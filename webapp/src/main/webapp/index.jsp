@@ -9,7 +9,7 @@ body{
 }  
 .container {  
     padding: 50px;  
-  background-color: lightblue;  
+  background-color: lightgrey;  
 }  
   
 input[type=text], input[type=password], textarea {  
@@ -78,7 +78,7 @@ Gender :
 </label><br>  
 <input type="radio" value="Male" name="gender" checked > Male   
 <input type="radio" value="Female" name="gender"> Female   
-<input type="radio" value="Other" name="gender"> Other  
+<input type="radio" value="LGBTQ" name="gender"> LGBTQ  
   
 </div>  
 <label>   
