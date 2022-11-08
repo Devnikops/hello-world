@@ -9,7 +9,7 @@ body{
 }  
 .container {  
     padding: 50px;  
-  background-color: lightgrey;  
+  background-color: purple;  
 }  
   
 input[type=text], input[type=password], textarea {  
@@ -82,7 +82,7 @@ Gender :
   
 </div>  
 <label>   
-Phone :  
+Phone/Mobile :  
 </label>  
 <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
 <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
