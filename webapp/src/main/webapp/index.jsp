@@ -49,7 +49,7 @@ hr {
 <body>  
 <form>  
   <div class="container">  
-  <center>  <h1> This is New and updated Registeration Form</h1> </center>  
+  <center>  <h1> Updated Registeration Form</h1> </center>  
   <hr>  
   <label> Firstname </label>   
 <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
