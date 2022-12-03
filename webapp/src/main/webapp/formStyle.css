@@ -17,7 +17,7 @@ body{
 .formWraper{
     display: flex;
     width: 55%;
-    height: 500px;
+    height: 600px;
     background-color: yellowgreen;
     margin-top: 80px;
     border-radius: 10px;
@@ -41,7 +41,7 @@ body{
 .welcomeDiv{
     width: 50%;
     padding: 10px;
-    background-image: url(image1.jpg);
+    background-image: url("https://i.pinimg.com/736x/64/f9/b7/64f9b746b619169c7f06f89f3a947913.jpg");
     background-size: cover;
     text-align: center;
     color: white;
