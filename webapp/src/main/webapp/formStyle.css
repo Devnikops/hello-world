@@ -25,7 +25,7 @@ body{
     background-color: yellowgreen;
     margin-top: 80px;
     border-radius: 10px;
-    box-shadow:0px 0px 20px black;
+    box-shadow:0px 0px 20px white;
 }
  
 /* code for left sectin of form */
@@ -34,7 +34,7 @@ body{
     padding: 15%;
     background-image: url("https://i.pinimg.com/736x/64/f9/b7/64f9b746b619169c7f06f89f3a947913.jpg");
     text-align: center;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
 }
 .formDiv h2 {
     color: green;
