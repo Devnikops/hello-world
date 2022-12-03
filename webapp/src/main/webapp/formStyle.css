@@ -24,7 +24,7 @@ body{
 >>>>>>> fa42353b05d40d84166be694073cc01af47bb488
     background-color: yellowgreen;
     margin-top: 80px;
-    border-radius: 10px;
+    border-radius: 0px;
     box-shadow:0px 0px 20px white;
 }
  
@@ -34,7 +34,7 @@ body{
     padding: 15%;
     background-image: url("https://i.pinimg.com/736x/64/f9/b7/64f9b746b619169c7f06f89f3a947913.jpg");
     text-align: center;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 .formDiv h2 {
     color: green;
