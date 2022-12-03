@@ -17,7 +17,11 @@ body{
 .formWraper{
     display: flex;
     width: 55%;
+<<<<<<< HEAD
     height: 600px;
+=======
+    height: 700px;
+>>>>>>> fa42353b05d40d84166be694073cc01af47bb488
     background-color: yellowgreen;
     margin-top: 80px;
     border-radius: 10px;
