@@ -1,103 +1,71 @@
-<!DOCTYPE html>  
-<html>  
-<head>  
-<meta name="viewport" content="width=device-width, initial-scale=1">  
-<style>  
-body{  
-  font-family: Calibri, Helvetica, sans-serif;  
-  background-color: pink;  
-}  
-.container {  
-    padding: 50px;  
-  background-color: Yellow;  
-}  
-  
-input[type=text], input[type=password], textarea {  
-  width: 100%;  
-  padding: 15px;  
-  margin: 5px 0 22px 0;  
-  display: inline-block;  
-  border: none;  
-  background: #f1f1f1;  
-}  
-input[type=text]:focus, input[type=password]:focus {  
-  background-color: orange;  
-  outline: none;  
-}  
- div {  
-            padding: 10px 0;  
-         }  
-hr {  
-  border: 1px solid #f1f1f1;  
-  margin-bottom: 25px;  
-}  
-.registerbtn {  
-  background-color: #4CAF50;  
-  color: white;  
-  padding: 16px 20px;  
-  margin: 8px 0;  
-  border: none;  
-  cursor: pointer;  
-  width: 100%;  
-  opacity: 0.9;  
-}  
-.registerbtn:hover {  
-  opacity: 1;  
-}  
-</style>  
-</head>  
-<body>  
-<form>  
-  <div class="container">  
-  <center>  <h1> Final Registeration Form</h1> </center>  
-  <hr>  
-  <label> Firstname </label>   
-<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
-<label> Middlename: </label>   
-<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
-<label> Lastname: </label>    
-<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
-<div>  
-<label>   
-Course :  
-</label>   
-  
-<select>  
-<option value="Course">Course</option>  
-<option value="BCA">BCA</option>  
-<option value="BBA">BBA</option>  
-<option value="B.Tech">B.Tech</option>  
-<option value="MBA">MBA</option>  
-<option value="MCA">MCA</option>  
-<option value="M.Tech">M.Tech</option>  
-</select>  
-</div>  
-<div>  
-<label>   
-Gender :  
-</label><br>  
-<input type="radio" value="Male" name="gender" checked > Male   
-<input type="radio" value="Female" name="gender"> Female   
-<input type="radio" value="LGBTQ" name="gender"> LGBTQ  
-  
-</div>  
-<label>   
-Phone/Mobile :  
-</label>  
-<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
-<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
-Current Address :  
-<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
-</textarea>  
- <label for="email"><b>Email</b></label>  
- <input type="text" placeholder="Enter Email" name="email" required>  
-  
-    <label for="psw"><b>Password</b></label>  
-    <input type="password" placeholder="Enter Password" name="psw" required>  
-  
-    <label for="psw-repeat"><b>Re-type Password</b></label>  
-    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
-    <button type="submit" class="registerbtn">Register</button>    
-</form>  
-</body>  
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="formStyle.css">
+    <!-- Font Awesome 5 CDN link to add social icons in html5 registration form -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+ 
+</head>
+ 
+<body>
+      
+    <div class="container">
+        <dive class="formWraper">
+ 
+            <!-- Left section of responsive registration form -->
+ 
+            <div class="formDiv">
+                <h2>Create Account</h2>
+                <p class="text"> Sign Up with Social Media</p>
+ 
+             <!-- Font Awesome Icons -->
+                <div class="socialBtn">
+                    <div class="facebook icon"><i class="fab fa-facebook-f"></i></div>
+                    <div class="twitter icon"><i class="fab fa-twitter"></i></div>
+                    <div class="instagram icon"><i class="fab fa-instagram"></i></i></div>
+                </div>
+                 
+                <!--Horizontal Line-->
+                <hr>
+                <div class="orDiv">Or</div>
+ 
+                <p class="text">Sign Up with Email Address</p>
+                <div class="formGroup">
+                    <i class="far fa-user"></i>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="formGroup">
+                    <i class="far fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="formGroup">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="checkBox">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <span class="text">I Agree with Term & Conditions.</span>
+                </div>
+                <button class="btn">SIGN UP</button>
+            </div>
+ 
+            <!-- Right section of responsive registration form -->
+            <div class="welcomeDiv">
+                <h2>Welcome Back!</h2>
+                <p class="text">Get in touch with us for our news letter and more updates.</p>
+                <button class="btn2">SIGN IN</button>
+            </div>
+ 
+        </dive>
+    </div>
+ 
+</body>
+ 
 </html>
