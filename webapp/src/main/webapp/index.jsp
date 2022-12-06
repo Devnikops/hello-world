@@ -22,7 +22,7 @@
             <!-- Left section of responsive registration form -->
  
             <div class="formDiv">
-                <h2>Registar yourself here!</h2>
+                <h2>Registar Here!</h2>
                 <p class="text"> Sign Up with Social Media</p>
  
              <!-- Font Awesome Icons -->
