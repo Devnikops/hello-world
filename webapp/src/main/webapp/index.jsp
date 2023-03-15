@@ -19,7 +19,7 @@
         <li><a href="#">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>d
-        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Admin</a></li>
       </ul>
     </div>
   </nav>
@@ -28,7 +28,7 @@
     <div class="title">Create Amazing Website</div>
     <div class="sub_title">Pure HTML & CSS Only</div>
     <div class="btns">
-      <button>Learn More</button>
+      <button>HIT!!!</button>
       <button>Subscribe</button>
     </div>
   </div>
