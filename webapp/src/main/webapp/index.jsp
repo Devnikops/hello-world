@@ -59,7 +59,7 @@
             <!-- Right section of responsive registration form -->
             <div class="welcomeDiv">
                 <h2>Welcome Back!</h2>
-                <p class="text">Get in touch with us for our news letter and more updates.</p>
+                <p class="text">Ollaaa.</p>
                 <button class="btn2">SIGN IN</button>
             </div>
  
