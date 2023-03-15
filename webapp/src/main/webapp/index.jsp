@@ -1,71 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
- 
-<head>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up Form</title>
-    <!-- CSS file -->
-    <link rel="stylesheet" href="formStyle.css">
-    <!-- Font Awesome 5 CDN link to add social icons in html5 registration form -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
- 
-</head>
- 
+    <!------<title> Website Layout | CodingLab</title>------>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+   </head>
 <body>
-      
-    <div class="container">
-        <dive class="formWraper">
- 
-            <!-- Left section of responsive registration form -->
- 
-            <div class="formDiv">
-                <h2>Registar Here!</h2>
-                <p class="text"> Sign Up with Social Media</p>
- 
-             <!-- Font Awesome Icons -->
-                <div class="socialBtn">
-                    <div class="facebook icon"><i class="fab fa-facebook-f"></i></div>
-                    <div class="twitter icon"><i class="fab fa-twitter"></i></div>
-                    <div class="instagram icon"><i class="fab fa-instagram"></i></i></div>
-                </div>
-                 
-                <!--Horizontal Line-->
-                <hr>
-                <div class="orDiv">Or</div>
- 
-                <p class="text">Sign Up with Email Address</p>
-                <div class="formGroup">
-                    <i class="far fa-user"></i>
-                    <input type="text" name="name" id="name" placeholder="Name">
-                </div>
-                <div class="formGroup">
-                    <i class="far fa-envelope"></i>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                </div>
-                <div class="formGroup">
-                    <i class="fas fa-lock"></i>
-                    <input type="password" name="password" id="password" placeholder="Password">
-                </div>
-                <div class="checkBox">
-                    <input type="checkbox" name="checkbox" id="checkbox">
-                    <span class="text">I Agree with Term & Conditions.</span>
-                </div>
-                <button class="btn">SIGN UP</button>
-            </div>
- 
-            <!-- Right section of responsive registration form -->
-            <div class="welcomeDiv">
-                <h2>Welcome Back!</h2>
-                <p class="text">Ollaaa.</p>
-                <button class="btn2">SIGN IN</button>
-            </div>
- 
-        </dive>
+  <nav>
+    <div class="menu">
+      <div class="logo">
+        <a href="#">CodingLab</a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>d
+        <li><a href="#">Feedback</a></li>
+      </ul>
     </div>
- 
+  </nav>
+  <div class="img"></div>
+  <div class="center">
+    <div class="title">Create Amazing Website</div>
+    <div class="sub_title">Pure HTML & CSS Only</div>
+    <div class="btns">
+      <button>Learn More</button>
+      <button>Subscribe</button>
+    </div>
+  </div>
 </body>
- 
 </html>
