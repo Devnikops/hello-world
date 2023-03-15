@@ -1,167 +1,118 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-    box-sizing: border-box;
-    background-image: url("https://t3.ftcdn.net/jpg/02/90/89/76/360_F_290897614_7RdAsk2GmumcGWZ2qklmV74hKlNmznSx.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
 }
-
-.container{
-    display: flex;
-    align-content: center;
-    justify-content: center;
+::selection{
+  color: #000;
+  background: #fff;
 }
-
-.formWraper{
-    display: flex;
-    width: 55%;
-<<<<<<< HEAD
-    height: 600px;
-=======
-    height: 700px;
->>>>>>> fa42353b05d40d84166be694073cc01af47bb488
-    background-color: yellowgreen;
-    margin-top: 80px;
-    border-radius: 0px;
-    box-shadow:0px 0px 20px white;
+nav{
+  position: fixed;
+  background: #1b1b1b;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
 }
- 
-/* code for left sectin of form */
-.formDiv{
-    width: 50%;
-    padding: 15%;
-    background-image: url("https://i.pinimg.com/736x/64/f9/b7/64f9b746b619169c7f06f89f3a947913.jpg");
-    text-align: center;
-    border-radius: 0px;
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
-.formDiv h2 {
-    color: green;
-    margin-top: -5px;
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
 }
- 
-/* code for right sectin of the registration form */
-.welcomeDiv{
-    width: 50%;
-    padding: 10px;
-    background-color: lavender;
-    background-image: url("https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2020&q=80"); 
-    background-size: cover;
-    text-align: center;
-    color: white;
-}  
-.welcomeDiv h2 {
-    margin-top: 150px;
+.menu ul{
+  display: inline-flex;
 }
- 
- 
- /* ---- code for Font Awsome social icons */
-.socialBtn{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
 }
-.icon{
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    background-color:lavender;
-    margin: 5px;
-    line-height: 30px;
-    box-shadow: 0px 0px 10px black;
-     
+.menu ul li:first-child{
+  margin-left: 0px;
 }
- 
- 
- 
-.text{
-    font-size: small;
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
-.orDiv {
-    width: 10%;
-    margin: 0 auto;
-    background-color: lavender;
-    position: relative;
-    top: -16px;
-    justify-content: center;
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
 }
- 
-/* code for form input fields */
-.formGroup{
-    width: 100%;
-    position: relative;
+.img{
+  background: url('img3.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.formGroup input {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-style: none;
-    padding-left: 30px !important;
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
 }
- 
- 
-/* Code for Icones inside html form input */
-.formGroup i {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    color: grey;
-    font-size: smaller;
-    margin: 10px !important;
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
 }
- 
- 
-input::placeholder {
-    position: relative;
-    left: 10px;
+.center .title{
+  color: #fff;
+  font-size: 55px;
+  font-weight: 600;
 }
-input:focus{
-    border-color: red;
+.center .sub_title{
+  color: #fff;
+  font-size: 52px;
+  font-weight: 600;
 }
-.checkBox{
-    width: 100%;
-    margin-top: 2px;
+.center .btns{
+  margin-top: 20px;
 }
- 
-.btn{
-    width: 70%;
-    padding: 15px;
-    background-color: green;
-    margin-top: 15px;
-    color: lavender;
-    border-radius: 20px;
-    border-style: none;
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
 }
-.btn2{
-    width: 70%;
-    padding: 15px;
-    background-color:transparent;
-    margin-top: 15px;
-    color: lavender;
-    border-radius: 20px;
-    border-style: none;
-    border: 2px solid rgb(247, 243, 243);
+.center .btns button:first-child{
+  color: #fff;
+  background: none;
 }
- 
-/* CSS mouse hover efects */
-.btn:hover, .btn2:hover, .icon:hover{
-    background-color: rgb(7, 80, 35);
-    color: whitesmoke;
+.btns button:first-child:hover{
+  background: white;
+  color: black;
 }
-
-/* making HTML registration form responsive to mobile devices */
-@media screen and (max-width: 1000px){
-    .formWraper{
-        width: 70%;
-    }
-}
-@media screen and (max-width: 670px){
-    .formDiv{
-        width: 90%;
-        border-radius: 10px 10px 10px 10px;
-    }
-    .welcomeDiv{
-        display: none;
-    }
+.center .btns button:last-child{
+  background: white;
+  color: black;
 }
