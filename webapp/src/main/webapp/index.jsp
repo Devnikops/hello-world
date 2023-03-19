@@ -77,7 +77,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link">About</a>
+            <a href="#" class="navbar-link">My Account</a>
           </li>
 
           <li class="navbar-item">
