@@ -85,7 +85,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link">Contact</a>
+            <a href="#" class="navbar-link">Changes</a>
           </li>
 
         </ul>
