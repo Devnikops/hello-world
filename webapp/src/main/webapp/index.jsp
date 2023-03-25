@@ -85,7 +85,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link">Changes</a>
+            <a href="#" class="navbar-link">New Updates</a>
           </li>
 
         </ul>
