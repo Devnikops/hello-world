@@ -85,7 +85,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link">Pro Updates</a>
+            <a href="#" class="navbar-link">Ultra Pro Updates</a>
           </li>
 
         </ul>
