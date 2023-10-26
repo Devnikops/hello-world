@@ -81,7 +81,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link">Cloudoops</a>
+            <a href="#" class="navbar-link">--About Me--</a>
           </li>
 
           <li class="navbar-item">
