@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Glassmorphism Login Form | CodingNepal</title>
+  <title>Log-In Form | Dark-City-Rise</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,11 +13,11 @@
       <h2>Login</h2>
         <div class="input-field">
         <input type="text" required>
-        <label>Enter your Email ID</label>
+        <label>Enter Email ID</label>
       </div>
       <div class="input-field">
         <input type="password" required>
-        <label>Enter your Password</label>
+        <label>Enter Password</label>
       </div>
       <div class="forget">
         <label for="remember">
