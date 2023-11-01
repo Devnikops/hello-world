@@ -13,11 +13,11 @@
       <h2>Login</h2>
         <div class="input-field">
         <input type="text" required>
-        <label>Enter Email</label>
+        <label>Enter your Email</label>
       </div>
       <div class="input-field">
         <input type="password" required>
-        <label>Enter Password</label>
+        <label>Enter your Password</label>
       </div>
       <div class="forget">
         <label for="remember">
