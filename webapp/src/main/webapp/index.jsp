@@ -13,11 +13,11 @@
       <h2>Login</h2>
         <div class="input-field">
         <input type="text" required>
-        <label>Enter Email</label>
+        <label>Email...</label>
       </div>
       <div class="input-field">
         <input type="password" required>
-        <label>Enter Password</label>
+        <label>Password...</label>
       </div>
       <div class="forget">
         <label for="remember">
@@ -28,7 +28,7 @@
       </div>
       <button type="submit">Log In</button>
       <div class="register">
-        <p>Don't have an account? <a href="#">Register Now</a></p>
+        <p>Don't have an account? <a href="#">Register Immediately</a></p>
       </div>
     </form>
   </div>
